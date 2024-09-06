@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="">
+    <title>Artlolly</title>
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <!-- <meta property="og:url" content="" /> <meta property="og:image" content="" /> -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:site" content="" />
+    <meta name="twitter:creator" content="" />
+    <!-- <link rel="canonical" href="" /> -->
+    <!-- <link rel="icon" href="images/favicon-32x32.png" type="image/x-icon" /> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body id="homepage">
+
+    <!--Modal Sign In-->
+    <section id="modal" class="">
+        <div id="mySignModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="text-center">
+                                <img src="images/logo.png" class="m-auto" alt="logo">
+                                <div class="pt-3">
+                                    <h6 class="h5">Join Now</h6>
+                                </div>
+                                <div class="pt-2">
+                                    <div class="">
+                                        <form class="" action="">
+                                            <input type="text" placeholder="Choose a Username" name="username" />
+                                            <input type="password" placeholder="Choose a Password" name="pass" />
+                                            <p class="smtext mt-0  ">8 characters or longer. Continue Uppercase and
+                                                lowercase letters</p>
+                                            <input type="submit" value="Join" />
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="pt-2">
+                                    <div class="">
+                                        <p class="text-center smtext text-dark">Already Have An Account <a
+                                                href="#">Login
+                                                Now</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Modal Join Now-->
+    <section id="modal" class="">
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="text-center">
+                                <img src="images/logo.png" class="m-auto" alt="logo">
+                                <div class="pt-3">
+                                    <h6 class="h5">Join Now</h6>
+                                </div>
+                                <div class="pt-3">
+                                    <div class="bgmodalone">
+                                        <div class="d-flex">
+                                            <div class=""> <i class="fab fa-facebook-f"></i> </div>
+                                            <div class="">
+                                                <p class="mb-0"> Connect with Facebook</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pt-3">
+                                    <div class="bgmodalsecond">
+                                        <div class="d-flex">
+                                            <div class=""> <i class="fab fa-google"></i> </div>
+                                            <div class="">
+                                                <p class="mb-0"> Connect with Google</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pt-3">
+                                    <div class="bgmodalthird">
+                                        <div class="d-flex">
+                                            <div class=""> <i class="fab fa-apple"></i> </div>
+                                            <div class="">
+                                                <p class="mb-0"> Connect with Apple</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pt-2">
+                                    <div class="text-center">
+                                        <p class="text-dark">OR</p>
+                                    </div>
+                                </div>
+                                <div class="pt-2">
+                                    <div class="">
+                                        <form class="" action=""> <input type="email" name="email"
+                                                placeholder="Email Address" />
+                                            <!-- <input type="submit" value="Continue" /> -->
+                                            <a href="verification.html"><button type="button"
+                                                    class="btnaccsite">Continue</button></a>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="pt-2">
+                                    <div class="">
+                                        <p class="text-center smtext text-dark">Already Have An Account <a
+                                                href="#">Login
+                                                Now</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Navbar Here-->
+    <section id="navbarsect" class="">
+        <nav class="navbar navbar-expand-xl bg-white navbar-dark p-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="w-50 m-auto" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="fas fa-bars"></span> </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <div class="pt-4 pt-md-4 pt-lg-4 pt-xl-0">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link btnaccsite" href="#">Start Selling</a></li>
+                        </ul>
+                    </div>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"> <a class="nav-link active" href="index.html">Home</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">Service</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">Become A Seller</a> </li>
+                        <li class="nav-item bgbtn"> <a class="nav-link btnaccsite " href="#" data-toggle="modal"
+                                data-target="#mySignModal">Sign In</a> </li>
+                        <li class="nav-item bgbtn2"> <a class="nav-link btnaccsite " href="#" data-toggle="modal"
+                                data-target="#myModal">Join</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!--Banner-->
+    <section id="homepagesect" class="">
+        <div class="container-fluid">
+            <div class="row align-items-center ">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 ">
+                                <div class="">
+                                    <h1 class="">Our words can be-</h1>
+                                    <h4 class="pt-4">"create and sell custom Arts<br> products and masterpieces on line"</h4>
+                                    <h6 class="pt-4">we could have a collaborate and start selling button instead </h6>
+                                    <div class="pt-5 text-center">
+                                        <a href="#" class="btnaccsite">Start Selling</a>
+                                    </div>
+                                    <ul class="d-flex pt-5">
+                                        <li>No upfront fees</li>
+                                        <li>No order minimums</li>
+                                        <li>290 premium products</li>
+                                    </ul>
+                                    <h4 class="pt-4">Over 1 Million items Shipped Every Month</h4>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+                    <div class="">
+                        <img src="images/Home2/design-here.png" class=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--How we work section-->
+    <section id="" class="pt-5">
+        <div class="text-center">
+            <h2 class="heading">How it Work</h2>
+        </div>
+        <div class="pt-1 pb-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4 col-xl-4 pt-4">
+                        <div class="text-center">
+                            <div class="m-auto width15">
+                                <img src="images/Home2/work-icon1.png" alt="" class="" />
+                            </div>
+                            <h4 class="pt-3">1. Create A Lolly</h4>
+                            <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi labore veniam
+                                adipisci?</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 col-xl-4 pt-4">
+                        <div class="text-center">
+                            <div class="m-auto width15">
+                                <img src="images/Home2/work-icon2.png" alt="" class="" />
+                            </div>
+                            <h4 class="pt-3">2. Deliver Great Work</h4>
+                            <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi labore veniam
+                                adipisci?</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 col-xl-4 pt-4">
+                        <div class="text-center">
+                            <div class="m-auto width15">
+                                <img src="images/Home2/work-icon3.png" alt="" class="" />
+                            </div>
+                            <h4 class="pt-3">3. Get Paid</h4>
+                            <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi labore veniam
+                                adipisci?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--carousel section-->
+    <section id="carouselsect" class="pt-5">
+        <div class="">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div
+                                    class="col-12 col-md-6 col-lg-6 col-xl-7 order-1 order-md-0 order-lg-0 order-xl-0 pt-3">
+                                    <div class="">
+                                        <h2 class="">What is Art Lolly
+                                        </h2>
+                                        <hr>
+                                    </div>
+                                    <div class="pt-4">
+                                        <div class="container">
+                                            <div class="row align-items-center">
+                                                <div class="col-12 col-md-4 col-lg-2 col-xl-2 ">
+                                                    <div class="m-auto">
+                                                        <img src="images/overview/icons/learn-icon.png" alt=""
+                                                            class="imgwidthone m-auto" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-8 col-lg-9 col-xl-9 ">
+                                                    <div class="">
+                                                        <h4 class="">Learn What Makes a Successfull Profile</h4>
+                                                        <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                                            elit. Itaque neque eveniet autem.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pt-4">
+                                        <div class="container">
+                                            <div class="row align-items-center">
+                                                <div class="col-12 col-md-4 col-lg-2 col-xl-2 ">
+                                                    <div class="">
+                                                        <img src="images/overview/icons/seller-profile.png" alt=""
+                                                            class="imgwidthone m-auto" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-8 col-lg-9 col-xl-9 ">
+                                                    <div class="">
+                                                        <h4 class="">Create Your Seller Profile</h4>
+                                                        <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                                            elit. Itaque neque eveniet autem.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pt-4">
+                                        <div class="container">
+                                            <div class="row align-items-center">
+                                                <div class="col-12 col-md-4 col-lg-2 col-xl-2 ">
+                                                    <div class="">
+                                                        <img src="images/overview/icons/publish-icon.png" alt=""
+                                                            class="imgwidthone m-auto" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-8 col-lg-9 col-xl-9 ">
+                                                    <div class="">
+                                                        <h4 class="">Publish Your Artiolly</h4>
+                                                        <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                                            elit. Itaque neque eveniet autem.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-md-6 col-lg-6 col-xl-5 order-2 order-md-0 order-lg-0 order-xl-0  pt-3">
+                                    <div class="overviewimg">
+                                        <img src="images/overview/img1.png" class="" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pt-5">
+            <hr class="">
+        </div>
+    </section>
+
+    <!--Questions And Answers-->
+    <section id="quesandans" class="pt-5 pb-5">
+        <div class="pt-1">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-6 pt-4">
+                        <div class="">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-6 ">
+                                        <div class="h-100">
+                                            <div class="pt-3">
+                                                <img src="images/Home2/about-us2.png" class="" alt=""/>
+                                            </div>
+                                            <div class="pt-3">
+                                                <img src="images/Home2/about-us3.png" class="" alt=""/>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                    <div class="col-6 pl-0 ml-0">
+                                        <div class="h-100">
+                                            <div class="pt-3">
+                                                <img src="images/Home2/about-us4.png" class="" alt=""/>
+                                            </div>
+                                            <div class="pt-3">
+                                                <img src="images/Home2/about-us1.png" class="" alt=""/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-6 pt-4">
+                        <div class="">
+                            <h2 class="">About Us</h2>
+                            <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente cumque omnis ex vitae! Quas, aliquam. Provident dolores obcaecati voluptatem animi minus nisi eveniet assumenda nesciunt ratione. Perferendis molestiae reprehenderit eaque numquam perspiciatis eos minus? Doloremque unde tempora laboriosam, pariatur impedit blanditiis, tempore quidem magni consectetur explicabo quam, atque dolore distinctio quos! Incidunt dolores quisquam exercitationem numquam? Quam hic commodi totam vero unde repellat ipsa, labore minus numquam. Alias eaque dolores fugiat quasi tenetur! Laboriosam error explicabo molestias libero iste incidunt reiciendis quaerat perspiciatis dolorem eos culpa, sunt dicta, eaque amet ullam dignissimos modi? Dolore consectetur, harum odit, aliquid sapiente aspernatur expedita laborum incidunt beatae et eaque officia quia, nihil nostrum? Beatae temporibus quod ipsa voluptas necessitatibus doloribus tempora quas ex quis quidem aut, dolores dolor excepturi optio totam doloremque molestias. Cum molestiae quibusdam eaque atque facere ea voluptate ut magni placeat maiores? Accusamus molestiae dolores earum dolorem pariatur repudiandae iure.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pt-5">
+            <hr class="">
+        </div>
+    </section>
+
+    <!--Questions And Answers-->
+    <section id="quesandans" class="pt-5">
+        <div class="text-center">
+            <h2 class="heading">Q & A</h2>
+        </div>
+        <div class="pt-1">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-6 pt-4">
+                        <div class="">
+                            <div class="accordion">
+                                <div class="d-flex">
+                                    <div> What Can I sell? </div>
+                                    <div class="opentime"> <i class="fas fa-caret-down"></i> </div>
+                                </div>
+                            </div>
+                            <div class="panel">
+                                <p class="pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-6 pt-4">
+                        <div class="">
+                            <div class="accordion">
+                                <div class="d-flex">
+                                    <div> What Can I sell? </div>
+                                    <div class="opentime"> <i class="fas fa-caret-down"></i> </div>
+                                </div>
+                            </div>
+                            <div class="panel">
+                                <p class="pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-6 pt-4">
+                        <div class="">
+                            <div class="accordion">
+                                <div class="d-flex">
+                                    <div> What Can I sell? </div>
+                                    <div class="opentime"> <i class="fas fa-caret-down"></i> </div>
+                                </div>
+                            </div>
+                            <div class="panel">
+                                <p class="pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-6 pt-4">
+                        <div class="">
+                            <div class="accordion">
+                                <div class="d-flex">
+                                    <div> What Can I sell? </div>
+                                    <div class="opentime"> <i class="fas fa-caret-down"></i> </div>
+                                </div>
+                            </div>
+                            <div class="panel">
+                                <p class="pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-6 pt-4">
+                        <div class="">
+                            <div class="accordion">
+                                <div class="d-flex">
+                                    <div> What Can I sell? </div>
+                                    <div class="opentime"> <i class="fas fa-caret-down"></i> </div>
+                                </div>
+                            </div>
+                            <div class="panel">
+                                <p class="pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-6 pt-4">
+                        <div class="">
+                            <div class="accordion">
+                                <div class="d-flex">
+                                    <div> What Can I sell? </div>
+                                    <div class="opentime"> <i class="fas fa-caret-down"></i> </div>
+                                </div>
+                            </div>
+                            <div class="panel">
+                                <p class="pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pt-5">
+            <hr class="">
+        </div>
+    </section>
+
+    <!--Footer section-->
+    <section id="footersect" class="pt-5">
+        <div class="pt-1">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4 col-xl-4 pt-4">
+                        <div class=""><a href="index.html"><img src="images/logo.png" class="w-50 m-auto" alt="" /></a>
+                        </div>
+                        <div class="pt-3">
+                            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio aliquid quia, quae
+                                facere illum, id doloribus ut quo suscipit fugit ea quibusdam numquam ex perferendis at
+                                asperiores in eligendi possimus unde provident porro. Iure aliquid cupiditate quia
+                                debitis ea recusandae.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 offset-md-1 col-md-2 offset-lg-1 col-lg-2 offset-xl-1 col-xl-2 pt-4">
+                        <div class="">
+                            <h4 class="">Menu</h4>
+                        </div>
+                        <div class="pt-3">
+                            <ul class="footerlinks pl-1">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms Of Service</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-2 col-lg-2 col-xl-2 pt-4">
+                        <div class="">
+                            <h4 class="">Artiolly</h4>
+                        </div>
+                        <div class="pt-3">
+                            <ul class="footerlinks pl-1">
+                                <li><a href="#">Artworks</a></li>
+                                <li><a href="#">Paintings</a></li>
+                                <li><a href="#">Artiolly Photography</a></li>
+                                <li><a href="#">Art Prints</a></li>
+                                <li><a href="#">Drawings</a></li>
+                                <li><a href="#">Illustrations</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-3 col-xl-3 pt-4">
+                        <div class="">
+                            <h4 class="">Contact Information</h4>
+                        </div>
+                        <div class="pt-3">
+                            <ul class="footerlinks pl-1">
+                                <li>291 NEW YORK 10016</li>
+                                <li><a href="tel: +9199999999" class="footerlinkclass">+91999999999</a></li>
+                                <li>atilollo@gmail.com</li>
+                                <li><b>Join Our Social media links</b></li>
+                                <li> <i class="fab fa-youtube-square"></i>&nbsp; <i
+                                        class="fab fa-facebook-square"></i>&nbsp; <i
+                                        class="fab fa-instagram-square"></i>&nbsp; <i class="fab fa-linkedin"></i> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pt-5">
+            <hr class="">
+        </div>
+        <div class="pt-1 pb-1">
+            <p class="text-center">Copyright © 2021 artiolly.com - All Rights Reserved</p>
+        </div>
+    </section>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/d9c009501f.js"></script>
+<script src="js/main.js"></script>
+
+</html>
